@@ -17,6 +17,6 @@ func GetRandomID() string {
 	randAdjectiveA = r.Intn(adjectives_length)
 	randAdjectiveB = r.Intn(adjectives_length)
 
-	return adjectives[randAdjectiveA] + "-" + adjectives[randAdjectiveB] + "-" + animals[randAnimal]
+	return adjectives[randAdjectiveA] + adjectives[randAdjectiveB] + animals[randAnimal]
 
 }
